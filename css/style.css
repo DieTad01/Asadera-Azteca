@@ -1,0 +1,54 @@
+body{
+    background-image: url('../assets/fondo.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+}
+
+header{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+#food{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#food h1{
+    font-size: 50px;
+    color: red;
+    font-variant: small-caps;
+}
+
+#food h2{
+    color: yellow;
+}
+
+#drink{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#drink h1{
+    font-size: 50px;
+    color: red;
+    font-variant: small-caps;
+}
+
+#drink h2{
+    color: yellow;
+}
+
+#promo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#promo h1{
+    font-size: 50px;
+    color: blue;
+    font-variant: small-caps;
+}
+
+#promo h2{
+    color: yellow;
+}
