@@ -52,3 +52,25 @@ header{
 #promo h2{
     color: yellow;
 }
+
+/*Para celular*/
+@media (max-width: 600px) {
+    header {
+        font-size: 24px; /* Texto más pequeño para el título */
+    }
+
+    #food h1, #drink h1, #promo h1 {
+        font-size: 32px; /* Reducimos el h1 para que no se corte */
+        text-align: center;
+    }
+
+    #food h2, #drink h2, #promo h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    body {
+        /* "contain" o "fixed" ayuda a que el fondo no se deforme en móviles */
+        background-attachment: fixed; 
+    }
+}
